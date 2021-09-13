@@ -3,4 +3,22 @@
   <groupId>nz.ac.massey.cs.251</groupId>
   <artifactId>Maven_Tutorial</artifactId>
   <version>1.0.0</version>
+  <properties>
+    <project.build.sourseEncoding>UTF-8</project.build.sourseEncoding>
+    <maven.compiler.source>15</maven.compiler.source>
+    <maven.compiler.target>15</maven.compiler.target>
+  </properties>
+  <dependencies>
+    <dependency>
+      <groupId>com.google.collections</groupId>
+      <artifactId>google-collections</artifactId>
+      <version>1.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.google.guava</groupId>
+      <artifactId>guava</artifactId>
+      <version>29.0-jre</version>
+    </dependency>
+  </dependencies>
 </project>
+
